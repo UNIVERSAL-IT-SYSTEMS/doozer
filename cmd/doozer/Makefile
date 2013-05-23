@@ -18,6 +18,9 @@ GOFILES=\
 	watch.go\
 	find.go\
 	touch.go\
+	watchService.go\
+	addService.go\
+	delService.go\
 
 include $(GOROOT)/src/Make.cmd
 

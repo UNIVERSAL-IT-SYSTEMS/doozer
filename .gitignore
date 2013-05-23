@@ -3,3 +3,5 @@
 _obj
 _test*
 cmd/doozer/doozer
+
+.DS_Store
