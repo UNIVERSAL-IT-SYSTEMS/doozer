@@ -1,8 +1,8 @@
 package main
 
 func init() {
-	cmds["addService"] = cmd{addService, "<serviceName>", "Adds a service"}
-	cmdHelp["addService"] = `Adds the service with name <serviceName>.
+	cmds["addService"] = cmd{addService, "<serviceName> <scriptPath> <logPath> <redo>", "Adds a service"}
+	cmdHelp["addService"] = `Adds the service with name <serviceName>, <scriptPath>, <logPath>, <redo>
 
 `	
 }
